@@ -1,0 +1,53 @@
+.reports-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 50px ;
+   
+    border-radius: 8px;
+  }
+  
+  .reports-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .reports-list {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .report-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #eeeef0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  .report-item p {
+    margin: 5px 0;
+  }
+  
+  .report-button-container {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+  }
+  
+  .report-button-container .report-button {
+    padding: 13px 24px;
+    background-color: #1b1b1b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  
+  .report-button-container .report-button:hover {
+    background-color: #484747;
+  }
+  

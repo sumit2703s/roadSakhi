@@ -1,0 +1,44 @@
+
+
+
+.container{
+    padding: 40px  300px 0px 300px ;
+    /* background: linear-gradient(to right, #FFFFB3, #FCE2B2); */
+    /* background: linear-gradient(to right, #FFFFB3, #FFFFFF) */
+    background: linear-gradient(to right, rgb(251, 254, 218), #FFFFFF)
+ 
+ }
+ 
+ .container h2 {
+     font-size: 2rem;
+     margin-bottom: 12px;
+     position: relative;
+ }
+ 
+ .container h2::after {
+     content: '';
+     display: block;
+     width: 100%; /* Make the line width match the h2's width */
+     max-width: 140px; /* Set a max width for the underline */
+     height: 1px;
+     background-color: blue;
+     /* margin: 10px auto 0; Adjust spacing and center it */
+ }
+ 
+ .container p{
+     line-height: 29px;
+     font-size: 1.1rem;
+ }
+ .Vision-section{
+     padding: 40px 0;
+ }
+ 
+ .animation-box{
+     /* padding-top: 100px; */
+     width: 200px;
+     height: 300px;
+     margin-left: 800px;
+     /* transform: translateY(-50%) scaleX(-1); */
+     right: 0;
+     margin-bottom: 0;
+ }

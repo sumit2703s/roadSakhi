@@ -1,0 +1,76 @@
+/* Center the form on the page */
+.contact-section {
+    display: flex;
+    align-items: center;
+    min-height: 100vh; /* Make sure it takes up the full screen height */
+  }
+  
+  /* Centering form within its container */
+  .form {
+    max-width: 600px; /* Increase the width of the form */
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form h3 {
+    text-align: left; /* Center the form header */
+    font-size: 1.5rem; /* Increase size of the heading */
+    margin-bottom: 20px;
+  }
+  
+  .fullName {
+    display: flex;
+    gap: 20px; /* Increase the gap between first and last name fields */
+  }
+  
+  label {
+    font-size: 1rem; /* Increase font size of labels */
+    font-weight: 600;
+    color: #333; /* Darker text for readability */
+  }
+
+  .form input,
+  textarea {
+    font-family: "Nunito", sans-serif;
+    background-color: #f8f7f7;
+    border: 1px solid #a9a9a9;
+    margin: 0.525rem 0  1.5rem 0;
+    padding: 15px; /* Increase padding for larger input fields */
+    font-size: 1rem; /* Increase font size */
+    color: #000;
+    width: 100%; /* Ensure fields take up full width */
+    box-sizing: border-box;
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    opacity: 0.7;
+    font-size: 0.9rem;
+  }
+  
+  textarea {
+    resize: vertical; /* Allow resizing of the textarea */
+  }
+  
+  .form button {
+    max-width: 200px; /* Increase button width */
+    letter-spacing: 1.9px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1rem 2rem; /* Increase padding */
+    background-color: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px; /* Add margin for spacing */
+    align-self: center; /* Center the button */
+  }
+  
+  button:hover {
+    background-color: #1f1e1e;
+  }
+  
+ 
+  

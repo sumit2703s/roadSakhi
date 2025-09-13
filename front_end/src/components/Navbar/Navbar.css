@@ -1,0 +1,46 @@
+
+.navbar {
+    background-color: #ffffff;
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    padding: 0.6rem 1.2rem;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-bottom: 1px solid gray;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.navbar-logo {
+   width: 10%;
+   padding: 0.5rem 0.4rem;
+}
+
+.navbar-links {
+    padding: 0.5rem 0.4rem;
+   
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.navbar-link {
+    color: rgb(36, 36, 36);
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.navbar-link.active {
+    color: #007bff;
+    font-weight: bold;
+    border-bottom: 2px solid #007bff; /* Example styling for active link */
+}

@@ -1,0 +1,89 @@
+.wrapper {
+    padding: 80px;
+    gap: 80px;
+    justify-content: center;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px; /* Make the form section wider */
+    margin: 0 auto; /* Center the login form */
+  }
+  
+  .wrapper img {
+    width: 500px; /* Increase image size */
+    max-width: 100%;
+  }
+  
+  .input-group {
+    margin-top: 6px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group input {
+    background-color: #f8f7f7;
+    border: 1px solid #a9a9a9;
+    padding: 13px 25px; /* Increase padding for larger input fields */
+    width: 100%; /* Ensure input field stretches across the container */
+    max-width: 450px; /* Increase input field size */
+    box-sizing: border-box;
+    font-size: 1.2rem; /* Increase font size */
+  }
+  
+  .input-group label {
+    font-size: 1.3rem; /* Increase label size */
+    margin: 20px 0 10px 0;
+  }
+  
+  .form-section {
+    max-width: 450px; /* Make the form section larger */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .form-section button {
+    letter-spacing: 1.9px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #000;
+    margin-top: 40px;
+    border: none;
+  align-self: center;
+    padding: 15px 14px;
+    width: 100%; /* Make the button fill the container width */
+    /* max-width: 700px; */
+    cursor: pointer;
+    max-width: 150px;
+  }
+  .form-section p {
+    text-align: right;
+    padding: 10px 0 20px 0;
+  }
+  
+  .form-section p a {
+    color: #FFD84D;
+  }
+  
+  .form-section h2 {
+    font-size: 2.3rem; /* Increase heading size */
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid rgb(105, 105, 105);
+    background-color: #000;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 1rem;
+    color: #fff;
+  }
+  

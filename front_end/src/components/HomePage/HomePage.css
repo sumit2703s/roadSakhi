@@ -1,0 +1,185 @@
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  padding: 100px 0 0 0;
+}
+
+.hero-section h1 {
+  margin: 0;
+  font-size: 4rem;
+}
+
+.hero-section h1 span {
+  color: #ffd700;
+}
+.lottie-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 450px;
+  height: 450px; 
+  z-index: 0;
+}
+
+.hero-section .main-header p {
+  padding: 40px 0 60px 0;
+  font-size: 1.2rem;
+  color: rgb(131, 131, 131);
+}
+
+.main-header {
+  margin: 0 auto;
+  max-width: 48%;
+  padding: 0 0 100px 0;
+}
+
+.hero-section::before {
+  opacity: 0.2;
+  content: '';
+  position: absolute;
+  top: 200px;
+  left: -6%;
+  width: 28%;
+  height: 400px;
+  background-image: url('../../assets/roadAccidentImg.png');
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  z-index: -1;
+  transform: rotate(350deg);
+}
+
+.main-header a {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  background-color: black;
+  border-radius: 20rem;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Nunito";
+  letter-spacing: 0.06rem;
+  color: rgb(252, 252, 252);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* About Section */
+.about-section {
+  margin: 100px 0;
+  background-image: url("../../assets/imageCollage.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.about-section::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 132.75rem;
+  min-height: 80vh;
+  background-color: rgba(14, 13, 13, 0.75);
+  z-index: 1;
+}
+
+.about-content {
+  text-align: left;
+  z-index: 2;
+  max-width: 100rem;
+  padding: 100px;
+  color: rgb(249, 249, 249);
+}
+
+.about-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  line-height: 1.5;
+  font-size: 1.12rem;
+  color: rgb(245, 240, 240);
+  margin-bottom: 5px;
+}
+
+/* FAQ Section */
+.frequentlyAskedQuestion-section {
+  position: relative;
+  padding: 60px 0 80px 0;
+}
+
+.frequentlyAskedQuestion-section::before {
+  opacity: 0.2;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 500px;
+  background-image: url('../../assets/personRidingbycycle.png');
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.faq-question h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.faq-item p {
+  margin-left: 30px;
+  text-align: left;
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.dropdown {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+/* Important Announcements */
+.important-announcements {
+  margin-top: 100px;
+}
+
+.important-announcements h2 {
+  margin-bottom: 5px;
+  font-size: 2rem;
+}
+
+.important-announcements p {
+  font-size: 1.1rem;
+}

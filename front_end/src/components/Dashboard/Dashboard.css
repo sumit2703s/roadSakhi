@@ -1,0 +1,38 @@
+.dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+.dashboard-nav {
+  width: 250px;
+  background-color: #4899ea73;
+  /* opacity: 42%; */
+  /* background-color: #f4f4f4; */
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-nav h2 {
+  margin-bottom: 20px;
+}
+
+.dashboard-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dashboard-nav ul li {
+  margin: 10px 0;
+}
+
+.dashboard-nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  /* color: #333; */
+  font-weight: bold;
+}
+
+.dashboard-content {
+  flex-grow: 1;
+  padding: 20px;
+}

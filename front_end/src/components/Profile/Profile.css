@@ -1,0 +1,46 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    margin: 50px;
+    
+}
+
+.user-icon {
+    width: 80px; /* Icon width */
+    height: 80px; /* Icon height */
+    border-radius: 50%; /* Circular avatar */
+    margin-bottom: 15px; /* Space below the icon */
+}
+
+.user-name {
+  
+    /* padding: 50px 0; */
+    font-size: 1.5rem; /* Font size for user name */
+    color: #161616; /* Dark text color */
+}
+
+.user-email {
+    font-size: 1.3rem; /* Font size for email */
+    color: #161616; /* Lighter color for email */
+    /* margin: 5px 0; Margin for spacing */
+}
+
+.logout-button {
+    max-width: 150px;
+    font-size: 1.2rem;
+    font-family: 'Nunito',sans-serif;
+    margin-top: 20px; /* Space above the button */
+    padding: 13px 23px; /* Padding for the button */
+    background-color: #000; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-weight: 600; /* Bold font for button text */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.logout-button:hover {
+    background-color: #393939; /* Darker background on hover */
+}

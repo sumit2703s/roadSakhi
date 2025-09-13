@@ -1,0 +1,59 @@
+/* Container styling */
+.feedbacks-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 50px;
+  /* background-color: #f4f4f9; */
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.feedbacks-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+   text-align: left;
+  color: #333;
+}
+
+/* Feedback list styling */
+.feedback-list {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.feedback-item {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 15px;
+ 
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-item p {
+  margin: 5px 0;
+}
+
+/* Button styling */
+.button-container {
+  display: flex;
+  justify-content: left;
+}
+
+.button-container .report-button {
+  background-color: #1a1a1a;
+  color: white;
+  border: none;
+  font-family: 'Nunito',sans-serif;
+  padding: 13px 24px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-container .report-button:hover {
+  background-color: #424141;
+}
